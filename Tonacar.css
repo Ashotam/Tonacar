@@ -1,0 +1,714 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+​
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+​
+ol,
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+​
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+​
+* {
+    outline: none !important;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+​
+input {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -o-box-shadow: none;
+    -ms-box-shadow: none;
+}
+​
+button,
+a {
+    cursor: pointer;
+    text-decoration: none !important;
+    border: 0;
+    display: inline-block;
+}
+​
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+​
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "OpenSans";
+    font-weight: 400;
+    background: #fff;
+}
+
+header {
+    background: white;
+    padding: 20px 0;
+}
+.container{
+    max-width: 1145px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.menuContainer {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.menuContainer >img{
+max-height: 86px;
+}
+.imagesContainer {
+    display: flex;
+    padding: 20px 30px 10px 20px;
+}
+.firstImag{
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+}
+.redBackground {
+    min-width: 34px;
+    height:34px;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    display: inline-block;
+    margin-right: 20px;
+}
+.telephone{
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+}
+.clock{
+    position: absolute;
+    left: 6.5px;
+    top:6.5px;
+}
+.greenButton{
+    background-color: #42721D;
+    padding:14px 2%;
+    border: none;
+    border-radius: 20%;
+    color: white;
+    outline: none;
+}
+.menu{
+    width: 100%;
+    background-color: #D32411;
+}
+.redContainer{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+.oneDiv{
+    flex-grow: 1;
+    padding-left: 4.55%;
+    border-left: 1px solid white;
+    font-size: 16px;
+}
+
+.menuBatton > div{
+
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+.menuBatton{
+    display: none;
+}
+.advertising{
+    width: 100%;
+    background-image: url("Images/Background.png");
+    position: relative;
+}
+.advertisingContainer{
+    width: 100%;
+    height: 480px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.firstRedTitle{
+    position: absolute;
+    width: 52.15%;
+    background-color: #D32411;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    padding: 6px 0;
+    border-bottom-left-radius:30px;
+    border-top-left-radius: 30px;
+    left: -4.34%;
+    top:83px;
+}
+.SecondRedTitle{
+    position: absolute;
+    width:47.8%;
+    background-color: #D32411;
+    text-align: center;
+    font-size: 19px;
+    font-weight: normal;
+    color: white;
+    padding: 7px 0;
+    border-bottom-left-radius:30px;
+    border-top-left-radius: 30px;
+    left: 0;
+    top:140px;
+
+}
+.dzmerPap{
+    position: absolute;
+    top: 76px;
+    left: 35.21%;
+}
+.mecTonacar{
+    position: absolute;
+    width: 27.08%;
+    top:10px;
+    right: 5%;
+}
+.form{
+background-color:#D32411;
+    width: 57%;
+    padding: 12px 16px 11px 16px;
+    border-radius: 30px;
+    position: absolute;
+    top:214px;
+    display: flex;
+    flex-grow: 1;
+}
+.advertisingInput{
+
+    width:16.34%;
+    padding: 18px 15px;
+    border-radius: 30px;
+    border: none;
+    margin-right: 15px;
+    flex-grow: 1;
+}
+.form >button{
+
+    padding: 15px 6.08%;
+    border-radius: 30px;
+    background-color:#D32411 ;
+    border: white 1px solid;
+    outline: none;
+    flex-grow: 1;
+}
+
+
+
+.fourthRedTitle{
+    display: flex;
+    background-color:#D32411;
+    position: absolute;
+    width: 26.95%;
+    border-radius: 30px;
+    font-size: 13px;
+    padding: 4px 15px ;
+    align-items: center;
+    top: 292px;
+    color: white;
+}
+.fourthRedTitle >p{
+margin-left: 25px;
+}
+.fifthRedTitle{
+    position: absolute;
+    font-size: 32px;
+    padding: 20px 25px ;
+    color: white;
+    border-radius: 30px;
+    top: 298px;
+    left: 350px;
+    background-color:#D32411;
+}
+main {
+    position: relative;
+    overflow: hidden;
+}
+.mainContainer > p {
+
+    font-size: 28px;
+    margin: 60px auto;
+
+}
+
+.mainContainer{
+    margin: 0 auto;
+    text-align: center;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+
+}
+.oneGrid{
+    width: 31.4%;
+    height: 363px;
+    background-color:#D32411;
+    margin-bottom: 20px;
+    padding: 54px 56px 0 56px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 15px;
+
+}
+.oneGrid:hover {
+    margin-top: 0;
+    box-shadow: 0 15px 0 0 #DBDBDB;
+}
+.oneGrid:hover >h2{
+    border: 1px dashed white ;
+    border-radius: 50%;
+}
+.oneGrid > h2{
+    font-size: 65px;
+    color: white;
+    width: 75px;
+    margin: 0 auto;
+}
+.oneGrid >h5{
+    font-size: 18px;
+    color: white;
+    margin: 40px 0 35px 0;
+}
+.oneGrid > p {
+    font-size: 14px;
+    color: white;
+    line-height: 20px;
+}
+.NerqeviDzaxAmp{
+    position: absolute;
+    bottom: 0;
+    left: -12%;
+    max-width: 40%;
+    max-height: 152px;
+}
+.NerqeviAjAmp{
+    position: absolute;
+    bottom: 0;
+    right: -18%;
+    max-width: 40%;
+    max-height: 152px;
+}
+.lastSection{
+    background-image: url("Images/bigBackground.png") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.lastSectionContain{
+    margin: 0 auto;
+    padding: 47px 15px;
+    text-align: center;
+    font-size: 28px;
+}
+.Images{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 60px 0;
+    margin:0 auto;
+    font-size: 18px;
+    position: relative;
+}
+.Images > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 31%;
+
+}
+.image{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-color: #D32411;
+    position: relative;
+    flex-grow: 1;
+    margin-bottom: 50px;
+}
+.poqrTonacar{
+    position: absolute;
+    right: 44.5px;
+    top: 34.5px;
+}
+.esimInch{
+    position: absolute;
+    right:36.5px;
+    top: 36.5px;
+}
+.vremya{
+    position: absolute;
+    right: 41.5px;
+    top: 37px;
+}
+.dzaxKetikner{
+    position: absolute;
+    width:15.33% ;
+    top: 40%;
+    left:25%;
+}
+.ajKetikner{
+    position: absolute;
+    width:15.33% ;
+    top:40%;
+    right:25%;
+}
+
+
+@media  (max-width: 1120px) {
+
+    .dzmerPap {
+        left: 350px;
+    }
+    .firstRedTitle{
+        left: 0;
+        width: 500px;
+    }
+    .SecondRedTitle{
+        width: 500px;
+    }
+    .form{
+        width: 630px;
+    }
+    .fourthRedTitle{
+        width: 300px;
+    }
+    .oneGrid{
+        padding: 54px 36px 0 36px;
+    }
+}
+@media  (max-width: 1000px){
+    .dzmerPap {
+        left: 390px;
+    }
+    .firstRedTitle{
+        left: 40px;
+        width: 500px;
+    }
+    .SecondRedTitle{
+        left: 40px;
+        width: 500px;
+    }
+    .form{
+        left:40px;
+        width: 630px;
+    }
+    .fourthRedTitle{
+        left: 40px;
+        width: 300px;
+    }
+    .fifthRedTitle{
+        left: 390px;
+    }
+    .mecTonacar{
+        display: none;
+    }
+    .oneDiv{
+        font-size: 12px;
+    }
+    .grid{
+        justify-content: space-around;
+    }
+.oneGrid{
+    width: 40%;
+}
+
+}
+@media  (max-width: 860px){
+    .dzaxKetikner{
+        display: none;
+    }
+    .ajKetikner{
+        display: none;
+    }
+}
+
+@media  (max-width: 800px){
+.imagesContainer{
+
+    flex-direction: column;
+    justify-content: center;
+}
+    .menuContainer{
+        justify-content: space-between;
+    }
+    .firstImag +div {
+        margin-top: 10px;
+    }
+}
+@media  (max-width: 760px){
+    .advertisingContainer{
+        padding-top: 155px;
+    }
+
+    .firstRedTitle{
+
+        position: static;
+        width: 70%;
+        font-size: 28px;
+        border-radius: 30px;
+        margin: 10px auto;
+    }
+.SecondRedTitle{
+    position: static;
+    width: 70%;
+    font-size: 15px;
+    border-radius: 30px;
+    margin: 10px auto;
+    padding: 0 auto;
+}
+
+    .form{
+        position: static;
+        margin: 10px auto;
+        width: 70%;
+        height: 50px;
+        flex-grow: unset;
+
+    }
+    .fourthRedTitle{
+        width: 70%;
+        position: static;
+        margin: 10px auto;
+
+    }
+    .fifthRedTitle{
+        position: static;
+        margin: 10px auto;
+        font-size: 28px;
+    }
+    .advertisingContainer{
+        display: flex;
+        flex-direction: column;
+    }
+.dzmerPap{
+    display: none;
+
+}
+.advertisingInput{
+    padding: 10px 10px;
+    flex-grow: unset;
+    width: 31%;
+    height: 30px;
+
+}
+.form > button{
+    padding: 10px 10px;
+    flex-grow: unset;
+    width: 31%;
+    height: 50px;
+
+}
+}
+@media  (max-width: 700px){
+    .redContainer{
+        flex-direction: column;
+        justify-content: end;
+        height: auto;
+        padding-bottom: 20px;
+
+    }
+    .oneDiv{
+        font-size: 32px;
+        border: none;
+        display: none;
+    }
+    .oneDiv {
+        width: 40%;
+        font-size: 22px;
+        font-weight: bold;
+        text-align: center;
+        color: white;
+    }
+    .oneDiv:hover{
+        color: darkgrey;
+    }
+
+    .oneDiv + div{
+        margin-top: 10px;
+    }
+   .menuBatton{
+       margin-left: 97%;
+       display: block;
+   }
+    .menuBatton >div{
+        background-color: white;
+    }
+
+
+}
+@media  (max-width: 700px){
+    .menuContainer{
+        flex-direction: column;
+    }
+    .firstRedTitle{
+        font-size: 23px;
+    }
+    .SecondRedTitle{
+        font-size:12px ;
+    }
+    .form{
+        width: 90%;
+    }
+    .fifthRedTitle{
+        font-size: 22px;
+    }
+    .grid{
+        flex-direction: column;
+        width: 70%;
+        align-items: center;
+        margin: auto auto;
+    }
+    .oneGrid{
+        flex-grow: unset;
+        width: 80%;
+    }
+}
+@media  (max-width: 540px) {
+    .firstRedTitle{
+        font-size: 16px;
+    }
+    .fifthRedTitle{
+        font-size: 18px;
+    }
+    .grid{
+        width: 90%;
+    }
+    .grid h2{
+        font-size: 28px;
+    }
+    .oneGrid {
+        flex-grow: unset;
+        width: 100%;
+    }
+
+    .Images {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Images > div {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+}
