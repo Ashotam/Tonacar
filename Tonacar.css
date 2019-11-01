@@ -688,6 +688,11 @@ main {
     .firstRedTitle{
         font-size: 16px;
     }
+    .fourthRedTitle{
+        font-size: 12px;
+
+    }
+
     .fifthRedTitle{
         font-size: 18px;
     }
@@ -712,4 +717,20 @@ main {
         width: 100%;
     }
 
+
+}
+@media  (max-width: 470px){
+    .fourthRedTitle{
+        font-size: 10px;
+    }
+}
+@media  (max-width: 410px){
+    .fourthRedTitle{
+        width: 80%;
+    }
+}
+@media  (max-width: 360px){
+    .fourthRedTitle{
+        width: 92%;
+    }
 }
